@@ -50,7 +50,23 @@ $('#custom_data').cxSelect({
 ```
 
 ## Examples
-_(Coming soon)_
+```html
+<div id="region3">
+    <span class="item-inline"><select class="form-control province" id="province" data-first-title="全部省份"></select></span>
+    <span class="item-inline"><select class="form-control city" id="city" data-first-title="全部城市"></select></span>
+    <span class="item-inline"><select class="form-control area" id="area" data-first-title="全部区县"></select></span>
+    <span class="item-inline"><select class="form-control street" id="street" data-first-title="全部区县"></select></span>
+</div>
+
+<script language="JavaScript">
+    //新增地址选择地区
+    $('#region3').cxSelect({
+        url: 'city.json',  // 提示：如果服务器不支持 .json 类型文件，请将文件改为 .js 文件
+        selects: ['province', 'city', 'area','street'],  // selects 为数组形式，请注意顺序
+    });
+
+</script>
+```
 
 ## Release History
 _(Nothing yet)_
