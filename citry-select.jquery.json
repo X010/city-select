@@ -1,0 +1,25 @@
+{
+  "name": "citry-select",
+  "title": "city-select",
+  "description": "china province city county street",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jeffrey/city-select",
+  "author": {
+    "name": "x010"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jeffrey/city-select.git"
+  },
+  "bugs": "https://github.com/jeffrey/city-select/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jeffrey/city-select/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "*"
+  },
+  "keywords": []
+}
