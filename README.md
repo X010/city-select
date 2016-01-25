@@ -21,7 +21,33 @@ jQuery(function($) {
 ```
 
 ## Documentation
-_(Coming soon)_
+
+```html
+$('#custom_data').cxSelect({ 
+  selects: ['first', 'second', 'third', 'fourth', 'fifth'], 
+  jsonName: 'name', 
+  jsonValue: 'value', 
+  jsonSub: 'sub', 
+  url: [ 
+    {name:'A', value: '1', sub: [ 
+      {name: 'A-1', value: '2', sub: [ 
+        {name: 'A-1-1', value: '11'} 
+        // more.. 
+      ]} 
+      {name: 'A-2', value: '3', sub: [ 
+        {name: 'A-2-1', value: '34'} 
+      ]} 
+      // more.. 
+    ]}, 
+    {name:'B', value: '5', sub: [ 
+      {name: 'B-1', value: '8', sub: [ 
+        {name: 'B-1-1', value: '16'} 
+      ]} 
+    ]} 
+    // more.. 
+  ] 
+});
+```
 
 ## Examples
 _(Coming soon)_
